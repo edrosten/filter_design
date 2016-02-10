@@ -161,6 +161,6 @@ drawnow()
 
 
 for i = { '1', '2', '3', '4' }
-	system([ 'pstopnm -landscape -stdout -xborder=0 -yborder=0 -xsize 4096 comb-' i{1} '.ps | pnmscale -r 4 | pnmflip -r180 | pnmtopng > comb-' i{1}' .png' ] )
+	system([ 'pstopnm -landscape -stdout -xborder=0 -yborder=0 -xsize 4096 comb-' i{1} '.ps | pnmscale -r 4 | pnmflip -r180 | pnmtopng > comb-' i{1} '.png' ] )
 end
 
