@@ -133,8 +133,6 @@ drawnow()
 
 
 
-pause
-
 %Apply the filter to some actual data, and pad with zeros
 
 [noise, noise_fft_ind, noise_fft_freq ] = flat_noise(noise_pts, 0, F);
